@@ -1,0 +1,491 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "iconfont";
+  src: url("./iconfont.woff"); }
+
+.iconfont {
+  font-family: "iconfont" !important; }
+
+.icon-xinxi:before {
+  content: "\e630"; }
+
+.icon-comiiscaidan:before {
+  content: "\e603"; }
+
+.icon-fanhui-copy:before {
+  content: "\e600"; }
+
+.icon-tianjia:before {
+  content: "\e622"; }
+
+.icon-xuanzhong:before {
+  content: "\e739"; }
+
+.icon-yuyin:before {
+  content: "\e627"; }
+
+.icon-more1170511easyiconnet:before {
+  content: "\e60e"; }
+
+.icon-zhizhang5:before {
+  content: "\e64f"; }
+
+.con::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+@media screen and (max-width: 1080px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 38.33333px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 38.14815px; } }
+
+@media screen and (max-width: 384px) {
+  html {
+    font-size: 35.55556px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 34.72222px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 33.33333px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 29.62963px; } }
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  list-style: none; }
+
+.lists {
+  list-style: none;
+  padding: 0px; }
+
+.top {
+  padding: 0.375rem 0; }
+  .top .left {
+    width: 100%;
+    height: 0.6rem; }
+    .top .left .left1 {
+      width: 1.7rem;
+      height: 100%;
+      float: left; }
+      .top .left .left1 .con {
+        color: #ccc;
+        font-size: 0.5rem;
+        width: 1.2rem;
+        height: 100%;
+        margin: 0 auto; }
+        .top .left .left1 .con .icon {
+          font-size: 0.5rem;
+          text-align: center;
+          line-height: 0.6rem;
+          width: 0.6rem;
+          height: 100%;
+          margin-left: 0.1rem; }
+    .top .left .left2 {
+      width: 1.7rem;
+      margin-left: 0.1rem;
+      height: 100%;
+      float: left; }
+      .top .left .left2 .geren {
+        text-align: center;
+        width: 1rem;
+        height: 100%;
+        float: left; }
+      .top .left .left2 .xiala {
+        text-align: center;
+        line-height: 0.6rem;
+        color: #ccc;
+        width: 0.7rem;
+        float: left;
+        height: 100%; }
+    .top .left .left3 {
+      font-size: 0.6rem;
+      color: #ccc;
+      text-align: center;
+      line-height: 0.7rem;
+      float: right;
+      width: 1.5rem;
+      height: 100%; }
+    .top .left .left4 {
+      float: right;
+      width: 3.1rem;
+      height: 100%;
+      border-radius: 2px;
+      border: 1px solid #dedee8; }
+      .top .left .left4 .richen {
+        width: 50%;
+        height: 100%;
+        float: left;
+        background: #dedee8;
+        text-align: center;
+        line-height: 0.6rem; }
+      .top .left .left4 .bianqian {
+        text-align: center;
+        line-height: 0.6rem;
+        width: 50%;
+        height: 100%;
+        float: left; }
+
+.search {
+  width: 100%;
+  height: 2.7rem;
+  background: url("./p1.jpg") no-repeat center;
+  background-size: cover;
+  position: relative; }
+  .search .search-box {
+    width: 9.9rem;
+    height: 1.25rem;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    left: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    top: 0rem;
+    margin: auto; }
+    .search .search-box .tianjia {
+      color: #ccc;
+      font-size: 0.6rem;
+      width: 1.25rem;
+      height: 1.25rem;
+      float: left;
+      text-align: center;
+      line-height: 1.25rem; }
+    .search .search-box .shijian {
+      line-height: 1.25rem;
+      color: #ccc;
+      font-size: 0.5rem;
+      font-family: "微软雅黑";
+      position: relative; }
+      .search .search-box .shijian input {
+        border: none;
+        width: 8.5rem;
+        height: 1.2rem;
+        line-height: 1.25rem;
+        position: absolute;
+        right: 0rem;
+        bottom: -1.25rem;
+        outline: none;
+        border: 0; }
+
+.lists .lis .shang .inputs {
+  outline: none;
+  border: 0;
+  display: none;
+  border: none;
+  line-height: 1.1rem;
+  font-size: 0.2rem;
+  position: absolute;
+  z-index: 666;
+  left: 1.6rem;
+  float: left;
+  width: 7.5rem;
+  height: 1.1rem; }
+
+.content {
+  height: 15.2rem;
+  width: 100%;
+  background: #292a2f;
+  position: relative; }
+  .content .fanhui {
+    display: none;
+    float: left;
+    width: 1rem;
+    height: 1rem;
+    background: url("icon/fanhui1.png") no-repeat center;
+    background-size: 0.66rem;
+    margin: 0.1px; }
+  .content span {
+    font-size: 0.12rem;
+    color: #ccc;
+    margin: 10px;
+    margin-left: 0.2rem; }
+  .content .lis {
+    width: 100%;
+    height: 2.5rem;
+    background: white; }
+    .content .lis .shang {
+      width: 100%;
+      height: 1.4rem;
+      position: relative; }
+      .content .lis .shang .books {
+        font-size: 0.5rem;
+        color: white;
+        text-align: center;
+        line-height: 1.1rem;
+        margin: 0.2rem;
+        width: 1.1rem;
+        height: 1.1rem;
+        background: mediumpurple;
+        float: left;
+        border-radius: 50%; }
+      .content .lis .shang .neirong {
+        z-index: 2;
+        overflow: hidden;
+        line-height: 1.1rem;
+        font-size: 0.2rem;
+        position: relative;
+        margin: 0.2rem;
+        float: left;
+        width: 7.5rem;
+        height: 1.1rem; }
+      .content .lis .shang .duigou {
+        font-size: 0.5rem;
+        width: 1rem;
+        height: 1.1rem;
+        float: left;
+        margin: 0.2rem;
+        text-align: center;
+        line-height: 1.1rem; }
+    .content .lis .xia {
+      color: #ccc;
+      width: 100%;
+      height: 1.1rem;
+      position: relative; }
+      .content .lis .xia .more {
+        font-size: 0.5rem;
+        width: 1rem;
+        height: 1rem;
+        float: right;
+        margin-right: 0.2rem;
+        text-align: center;
+        line-height: 1.1rem; }
+      .content .lis .xia .tanchu {
+        transition: transform .5s ease;
+        transform: translate3d(100%, 0, 0);
+        width: 5rem;
+        height: 1rem;
+        border: 1px solid #ccc;
+        position: absolute;
+        top: 0rem;
+        right: 0rem; }
+        .content .lis .xia .tanchu ul {
+          padding: 0;
+          width: 100%;
+          height: 100%; }
+          .content .lis .xia .tanchu ul li {
+            width: 25%;
+            height: 100%;
+            float: left;
+            list-style: none; }
+          .content .lis .xia .tanchu ul .li1 {
+            background: url("icon/naozhong.png") no-repeat center;
+            background-size: 0.6rem; }
+          .content .lis .xia .tanchu ul .li2 {
+            background: url("icon/iconfont-lianxiren.png") no-repeat center;
+            background-size: 0.6rem; }
+          .content .lis .xia .tanchu ul .li3 {
+            background: url("icon/tupian.png") no-repeat center;
+            background-size: 0.6rem; }
+          .content .lis .xia .tanchu ul .li4 {
+            background: url("icon/diliweizhi.png") no-repeat center;
+            background-size: 0.6rem; }
+        .content .lis .xia .tanchu.tanchu1 {
+          transform: translate3d(0, 0, 0); }
+  .content .lis.done .shang .neirong::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto; }
+  .content .lis.done .shang .neirong {
+    color: #ccc; }
+  .content .bot {
+    transition: transform .8s ease;
+    transform: translate3d(0, 0, 0);
+    z-index: 444;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    bottom: 0rem;
+    left: 0px;
+    background: blue;
+    background: url("./bot.png") center -4.5rem no-repeat;
+    background-size: cover; }
+    .content .bot.bott {
+      transform: translate3d(0, 100%, 0); }
+
+.tanchuang {
+  width: 8rem;
+  height: 5rem;
+  background: url("./tanchuang.png") no-repeat center;
+  background-size: cover;
+  transition: transform .5s ease;
+  transform: translate3d(0.5rem, -25rem, 0); }
+  .tanchuang.tanchuang1 {
+    transform: translate3d(0.5rem, -15rem, 0); }
+
+.feichu {
+  animation: feichu .5s ease both; }
+
+@keyframes feichu {
+  0% {
+    transform: translate3d(0, 0, 0); }
+  100% {
+    transform: translate3d(100%, 0, 0); } }
+
+.cebian {
+  transition: transform .8s ease;
+  transform: translate3d(-100%, 0, 0);
+  z-index: 20;
+  width: 2.5rem;
+  height: 19rem;
+  background: #5c5c66;
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  z-index: 5555; }
+  .cebian .touxiang {
+    width: 2.2rem;
+    height: 2.2rem;
+    text-align: center;
+    margin: 0.3rem auto;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    background: url("p1.jpg") no-repeat center;
+    background-size: cover; }
+  .cebian .guidang {
+    width: 100%;
+    height: 2.5rem;
+    text-align: center; }
+    .cebian .guidang .tuxiang {
+      margin-top: 0.1rem;
+      width: 100%;
+      height: 1rem;
+      background: url("icon/归档.png") no-repeat center 0.5rem;
+      background-size: 0.6rem; }
+      .cebian .guidang .tuxiang:hover {
+        background: #292a2f; }
+    .cebian .guidang .wenzi {
+      font-size: 0.15rem;
+      text-align: center;
+      line-height: 1rem;
+      color: aliceblue; }
+  .cebian .chengzhang {
+    width: 100%;
+    height: 2.5rem;
+    text-align: center; }
+    .cebian .chengzhang .tuxiang {
+      margin-top: 0.1rem;
+      width: 100%;
+      height: 1rem;
+      background: url("icon/chengzhang 2.png") no-repeat center 0.5rem;
+      background-size: 0.6rem; }
+    .cebian .chengzhang .wenzi {
+      font-size: 0.15rem;
+      text-align: center;
+      line-height: 1rem;
+      color: aliceblue; }
+    .cebian .chengzhang:hover {
+      background: #292a2f; }
+  .cebian .geren {
+    width: 100%;
+    height: 2.5rem;
+    text-align: center; }
+    .cebian .geren .tuxiang {
+      margin-top: 0.1rem;
+      width: 100%;
+      height: 1rem;
+      background: url("icon/geren.png") no-repeat center 0.5rem;
+      background-size: 0.6rem; }
+    .cebian .geren .wenzi {
+      font-size: 0.15rem;
+      text-align: center;
+      line-height: 1rem;
+      color: aliceblue; }
+    .cebian .geren:hover {
+      background: #292a2f; }
+  .cebian .shezhi {
+    width: 100%;
+    height: 2.5rem;
+    text-align: center; }
+    .cebian .shezhi .tuxiang {
+      margin-top: 0.1rem;
+      width: 100%;
+      height: 1rem;
+      background: url("icon/shezhi.png") no-repeat center 0.5rem;
+      background-size: 0.6rem; }
+    .cebian .shezhi .wenzi {
+      font-size: 0.15rem;
+      text-align: center;
+      line-height: 1rem;
+      color: aliceblue; }
+    .cebian .shezhi:hover {
+      background: #292a2f; }
+  .cebian .tuichu {
+    width: 100%;
+    height: 2.5rem;
+    background: #ee5665;
+    text-align: center;
+    margin-top: 4rem; }
+    .cebian .tuichu .tuxiang {
+      margin-top: 0.1rem;
+      width: 100%;
+      height: 1rem;
+      background: url("icon/tuichu.png") no-repeat center 0.5rem;
+      background-size: 0.6rem; }
+    .cebian .tuichu .wenzi {
+      font-size: 0.15rem;
+      text-align: center;
+      line-height: 1rem;
+      color: aliceblue; }
+    .cebian .tuichu:hover {
+      background: #292a2f; }
+  .cebian.cebian1 {
+    transform: translate3d(0, 0, 0); }
+
+.gerengongzuo {
+  transition: transform .5s ease;
+  transform: translate3d(0, -100%, 0);
+  z-index: 33;
+  width: 100%;
+  height: 10rem;
+  background: white;
+  position: absolute;
+  left: 0rem;
+  top: 0rem; }
+  .gerengongzuo li {
+    list-style: none;
+    height: 1.2rem;
+    border-bottom: 1px solid #ccc; }
+    .gerengongzuo li span {
+      float: left;
+      color: #333;
+      width: 2rem;
+      height: 100%;
+      line-height: 1.2rem;
+      text-align: center; }
+    .gerengongzuo li .tu {
+      float: right;
+      width: 1rem;
+      height: 100%;
+      background: url("icon/iconfont-geren.png") no-repeat center;
+      background-size: 0.8rem; }
+
+.ge1 {
+  background: blue; }
+
+.spana {
+  color: white; }
+
+.gerengongzuo1 {
+  transform: translate3d(0, 0, 0); }
