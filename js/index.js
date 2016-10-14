@@ -158,6 +158,7 @@ $(function(){
         $('.top').css({display:'none'});
         $('.content .fanhui').css({display:'block'});
         $('.content span').css({opacity:"0"});
+         $('.content').css({height:'20rem'})
     })
     $('.fanhui').on('click',function(){
         $('.search').css({display:'block'})
